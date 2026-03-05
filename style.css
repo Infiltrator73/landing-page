@@ -7,7 +7,6 @@ body {
 
 .body {
   display: flex;
-  flex: 1;
   flex-flow: column;
   justify-content: space-between;
 }
@@ -61,6 +60,8 @@ button {
 }
 
 .middle {
+  display: flex;
+  flex-flow: column;
   padding: 40px 24px;
 }
 
@@ -91,9 +92,25 @@ button {
   justify-content: center;
   background-color: #E5E7EB;
   color: #1F2937;
-  font-weight: 300;
-  font-size: 36px;
   padding: 40px 24px;
+}
+
+.quote {
+  display: flex;
+  width: 750px;
+  flex-flow: column;
+}
+
+.text {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.author {
+  font-weight: bold;
+  align-self: flex-end;
 }
 
 .bottom {
