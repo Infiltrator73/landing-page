@@ -2,20 +2,28 @@
 
 body {
   font-family: 'Roboto';
-  color: #F9FAF8;
   margin: 0px;
 }
 
-.top {
-  background-color: #1F2937;
-  margin: 0px;
+.body {
+  display: flex;
+  flex: 1;
+  flex-flow: column;
+  justify-content: space-between;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   padding: 16px;
-  margin-bottom: 50px;
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+
+.top {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  padding: 40px 24px;
 }
 
 .links {
@@ -26,7 +34,7 @@ body {
 .top-content {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 40px;
   flex: auto;
 }
 
@@ -38,6 +46,8 @@ body {
 
 .title {
   margin: 0px;
+  font-size: 48px;
+  font-weight: 900;
 }
 
 button {
@@ -48,6 +58,48 @@ button {
   padding: 8px 24px;
   font-weight: bold;
   width: 100px;
+}
+
+.middle {
+  padding: 40px 24px;
+}
+
+.small-title {
+  display: flex;
+  justify-content: center;
+  padding: 40px 24px;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.image {
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  width: 150px;
+}
+
+.lower-middle {
+  display: flex;
+  justify-content: center;
+  background-color: #E5E7EB;
+  color: #1F2937;
+  font-weight: 300;
+  font-size: 36px;
+  padding: 40px 24px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  padding: 40px 24px;
 }
 
 a {
